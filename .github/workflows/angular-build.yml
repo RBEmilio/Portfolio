@@ -18,9 +18,11 @@ jobs:
                 node-version: '20.x'
             - run: npm ci
             - run: npm run build
-            - run: git add dist
+            - run: ls dist/
+            - run: mv dist/mi-portfolio/browser dist/mi-portfolio/docs
+            - run: cp dist/mi-portfolio/docs/index.html dist/mi-portfolio/docs/404.html
             - name: Deploy
               uses: JamesIves/github-pages-deploy-action@v4
               with:
                 branch: gh-pages
-                folder: dist/mi-portfolio/browser
+                folder: dist/mi-portfolio
