@@ -4,9 +4,10 @@ on:
         branches: ["main", "master"]
     pull_request:
         branches: ["main", "master"]
+    workflow_dispatch:
 
 jobs:
-    ubuntu-echo:
+    ubuntu-deploy:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout Code
@@ -21,5 +22,5 @@ jobs:
             - name: Deploy
               uses: JamesIves/github-pages-deploy-action@v4
               with:
-                branch: main
-                folder: dist
+                branch: gh-pages
+                folder: dist/mi-portfolio/browser
