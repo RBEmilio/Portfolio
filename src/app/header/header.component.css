@@ -38,7 +38,7 @@ header{
     .desktop_menu{
         position: fixed;
         transition: 0.4s ease-in-out;
-        right: -280px;
+        left: -280px;
         /*right: 0px;*/
         top: 64px;
         background: #02534d;
@@ -62,7 +62,7 @@ header{
         padding: 10px;
     }
     .mobile_menu{
-        right:0;
+        left:0;
         transition: 0.4s ease-in-out;
     }
 }
