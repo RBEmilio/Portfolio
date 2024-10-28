@@ -1,3 +1,12 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las columnas se dividan en múltiples filas */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: flex-start; /* Alinea el contenido al inicio de la columna */
+    max-width: 800px; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+  }
+
 body {
   display: flex;
   justify-content: center;
