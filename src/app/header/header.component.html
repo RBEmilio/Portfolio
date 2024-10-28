@@ -14,9 +14,9 @@
                 </div>
                 <div class="desktop_menu" [class.mobile_menu]="menuValue">
                     <ul>
-                        <li (click)="closeMenu()">Inicio</li>
-                        <li (click)="closeMenu()">Sobre mi</li>
-                        <li (click)="closeMenu()">Contacto</li>
+                        <li (click)="closeMenu()"><a routerLink="/" routerLinkActive="active">Inicio</a></li>
+                        <li (click)="closeMenu()"><a routerLink="/about-me" routerLinkActive="active">Sobre mí</a></li>
+                        <li (click)="closeMenu()"><a routerLink="/contact" routerLinkActive="active">Contacto</a></li>
                     </ul>
                 </div>
             </div>

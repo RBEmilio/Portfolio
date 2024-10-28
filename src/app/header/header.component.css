@@ -23,11 +23,18 @@ header{
     margin-left: 26px;
 }
 .desktop_menu ul li:hover{
-    font-size: 19px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     color: yellow;
     transition: 0.4s ease-in-out;
+}
+.desktop_menu ul li a {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .menu-icon{
