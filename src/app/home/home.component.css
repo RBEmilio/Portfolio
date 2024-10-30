@@ -6,6 +6,9 @@
     max-width: 800px; 
     margin: 0 auto; 
   }
+  a {    /* Cambia el color según lo que prefieras */
+    text-decoration: none; /* Elimina el subrayado */
+  }
 
 body {
   background-color: #252A34 !important;
@@ -16,7 +19,8 @@ body {
   overflow: hidden;
 }
 
-.card {
+.card {  
+  z-index: 20;
   display: flex;
   justify-content: center;
   align-items: center;
