@@ -6,8 +6,8 @@
     max-width: 800px; 
     margin: 0 auto; 
   }
-  a {    /* Cambia el color según lo que prefieras */
-    text-decoration: none; /* Elimina el subrayado */
+  a {
+    text-decoration: none;
   }
 
 body {
