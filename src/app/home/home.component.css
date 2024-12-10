@@ -1,9 +1,11 @@
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    align-items: flex-start;
+    align-items: center;
     max-width: 800px; 
+    overflow: hidden;
     margin: 0 auto; 
   }
   a {
@@ -16,9 +18,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin: 0; 
   overflow: hidden;
 }
-
 .card {  
   z-index: 20;
   display: flex;

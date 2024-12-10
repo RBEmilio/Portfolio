@@ -4,6 +4,7 @@
             <div class="col-md-3 col-sm-3 col-3">
                 <div class="logo-container">
                    <!-- to do a logo--> <img src="" alt="" class="logo">
+                    <h1 class="">Little Gosnt</h1>
                 </div>
             </div>
             <div class="col-md-9 col-sm-9 col-9 text-end">
@@ -15,6 +16,7 @@
                 <div class="desktop_menu" [class.mobile_menu]="menuValue">
                     <ul>
                         <li (click)="closeMenu()"><a routerLink="/" routerLinkActive="active">Inicio</a></li>
+                        <li (click)="closeMenu()"><a routerLink="/proyects" routerLinkActive="active">Proyectos</a></li>
                         <li (click)="closeMenu()"><a routerLink="/about-me" routerLinkActive="active">Sobre mí</a></li>
                         <li (click)="closeMenu()"><a routerLink="/contact" routerLinkActive="active">Contacto</a></li>
                     </ul>
